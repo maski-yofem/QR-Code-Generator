@@ -49,7 +49,7 @@ export default function Home() {
         </h1>
 
         <img
-          src="/arrow.svg" 
+          src="/QR-Code-Generator/arrow.png" 
           alt="detail"
           className="arrow-detail"
         />
