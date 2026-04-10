@@ -2,6 +2,7 @@
 import {QRCodeCanvas} from 'qrcode.react';
 import { FaUpload } from "react-icons/fa";
 import { useState, useRef } from 'react';
+import arrowIcon from '@/public/arrow.svg';
 
 export default function Home() {
   const [linkValue, setLinkValue] = useState<string>('');
@@ -49,7 +50,7 @@ export default function Home() {
         </h1>
 
         <img
-          src="/qr-code-generator/arrow.png" 
+          src={arrowIcon.src} 
           alt="detail"
           className="arrow-detail"
         />
